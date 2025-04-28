@@ -33,3 +33,8 @@ gh repo clone <owner>/<repo> - Clone a GitHub repository
 gh pr status - Show status of pull requests
 gh pr create - Create a pull request
 gh pr checkout <number> - Check out a pull request locally
+
+//Forking repository
+git remote add upstream https://github.com/OriginalOwner/Repo.git
+git fetch upstream
+git fetch --prune
