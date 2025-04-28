@@ -38,3 +38,20 @@ gh pr checkout <number> - Check out a pull request locally
 git remote add upstream https://github.com/OriginalOwner/Repo.git
 git fetch upstream
 git fetch --prune
+
+//
+pipeline
+node {
+    stage('Build') {
+        echo 'Building the application...'
+    }
+    stage('Test') {
+        echo 'Testing the application...'
+    }
+    stage('Deploy') {
+        echo 'Deploying the application to the server...'
+    }
+    stage('Monitor') {
+        echo 'Monitoring the deployed application...'
+    }
+}
