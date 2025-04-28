@@ -1,0 +1,35 @@
+git config --global user.name "Your Name" - Set global Git username
+git config --global user.email "you@example.com" - Set global Git email
+git config --list - List all Git configuration settings
+git init - Initialize a new Git repository
+git clone <repo-url> - Clone a remote repository locally
+git status - Show the working tree status
+git add <file> - Stage file changes for commit
+git add . - Stage all changes in current directory
+git commit -m "message" - Record staged changes with a message
+git checkout <branch> - Switch to specified branch
+git checkout -b <branch> - Create and switch to new branch
+git branch - List all local branches
+git branch -d <branch> - Delete a local branch
+git merge <branch> - Merge specified branch into current branch
+git pull - Fetch and integrate changes from remote
+git push - Push local commits to remote repository
+git push -u origin <branch> - Push branch and set upstream tracking
+git fetch - Download objects and refs from remote
+git fetch --prune - Remove remote-tracking refs that no longer exist on remote
+git log - Show commit history
+git log --oneline - Show commit history in one-line format
+git log --graph --oneline --all - Show commit history as a graph
+git reflog - Show the history of reference updates
+git reset --hard <commit> - Reset current branch to specified commit, discarding changes
+git revert <commit> - Create a new commit that undoes specified commit
+git stash - Stash local changes temporarily
+git stash apply - Reapply stashed changes
+git remote -v - Show remote repository URLs
+gh auth login - Authenticate with GitHub CLI
+gh repo create <name> - Create a new GitHub repository
+gh repo fork <owner>/<repo> - Fork a repository on GitHub
+gh repo clone <owner>/<repo> - Clone a GitHub repository
+gh pr status - Show status of pull requests
+gh pr create - Create a pull request
+gh pr checkout <number> - Check out a pull request locally
